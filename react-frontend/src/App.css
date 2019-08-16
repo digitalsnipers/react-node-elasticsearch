@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 15% 85%;
+  height: 100vh;
+}
+
+.title{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 0;
+  padding-top: 20px;
+  background-color: #f8f8f8;
+}
+.App-header {
+  padding-top: 15px;
+  min-height: 12vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  grid-column: 2/3;
+  background-color: #f8f8f8;
+  
+}
+.inputForm{
+  justify-content:center;
+  padding-top: 20px;
+  grid-column: 1/2;
+  border-right: 1px solid #c2c2c2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resultPanel{
+  margin: 20px;
+  overflow-y: auto;
+}
+.rcard{
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid #b3b5b6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rcard:hover {
+  transform: scale(1.1);
+}
+.name{
+  font-weight: bold;
+}
+.det{
+  font-size: 12px;
+  line-height: 20%;
+}
+.color{
+  height: 8px;
+  width: 90px;
+  margin-top: 20px;
+}
